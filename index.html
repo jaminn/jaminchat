@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jamin</title>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <style>
+    div{
+border-style: solid;
+border-color: black;
+border-radius: 5px;
+padding: 3px;
+margin: 4px;
+}
+form{
+margin:0;
+}
+
+#inputbar{
+margin:0;
+}
+#heading{
+font-weight: 900;
+}
+#message{
+font-weight: 900;
+}
+
+    </style>
+
+  </head>
+  <body>
+    <div class="container" id="box_container">
+<div class="col-md-12" id="heading">
+  <input id="change_input" placeholder="바꿀이름을 입력하세요."></input>
+  <button id="change_button">바꾸기</button>
+</div>
+<div class="col-md-12" id="message">
+테스트
+</div>
+<div class="container-fluid" id="for_input">
+<div class="pull-right">
+<form id="my_form">
+  <input id="inputbar" type="text"></input>
+  <input class="btn btn-primary" type="submit" value="보네기"></input>
+</form>
+</div>
+</div>
+</div>
+
+  <script src="./client.js" charset="utf-8"></script>
+  </body>
+</html>

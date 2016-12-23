@@ -1,0 +1,16 @@
+{
+  "name": "jaminchat",
+  "version": "0.0.1",
+  "description": "자민이의 채팅 어플",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
